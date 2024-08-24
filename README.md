@@ -25,15 +25,9 @@ SequelizeStore is a basic e-store platform built with Node.js, Express, EJS, and
    git clone https://github.com/username/CafePos.git
    cd cafePos
 
-2. **Start the server-side:**
+2. **Start the server-side and client :**
    ```bash
-   cd api
    npm install
    npm run build
    npm start
 
-3. **Start the server-side:**
-   ```bash
-   cd client
-   npm install
-   npm start
