@@ -1,0 +1,23 @@
+{
+  "name": "sequelize-store",
+  "version": "1.0.0",
+  "description": "A simple e-commerce platform built with Node.js and Sequelize",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Samet Can Mavzer",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mysql2": "^1.6.1",
+    "sequelize": "^5.0.0-beta.11"
+  }
+}
